@@ -1,0 +1,97 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    padding 0;
+    margin: 0;
+}
+
+*{
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(255, 231, 215);
+    
+
+}
+
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.navbar #logo {
+    display: inline-block;
+    margin: 15px 12px;
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.about {
+    width: 100%;
+    padding: 20% 10%;
+    border-bottom: 1px solid black;
+}
+
+.accounts {
+    display: flex;
+    justify-content: space-between;
+    padding : 20% 0;
+}
+
+.connect {
+    width: 100%;
+    padding: 0% 10%;
+    border-bottom: 1px solid black;
+
+}
+
+.connect h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.connect a{
+    text-decoration: none;
+}
+
+
+
+img {
+    height: 350px;
+    width: auto;
+}
+
+figcaption {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.container p {
+    text-transform: uppercase;
+    text-align: center;
+    gap: 5px;
+}
+
+blockquote {
+    padding: 20% 10%;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    color: white;
+}
